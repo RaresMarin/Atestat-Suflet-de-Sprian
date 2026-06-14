@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Atestat___Spirit_de_Sprieni.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Stil.css" rel="stylesheet" />
+    <link href="/imagine/a1.png" rel="icon" type="image/png" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div runat="server">
+            <address>
+             <asp:Menu ClientIDMode="Static" ID="Menu1" runat="server" Orientation="Horizontal" Width="90%" RenderingMode="Table">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Acasa.aspx" Text="Acasa" Value="Acasa"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Monumente.aspx" Text="Monumente" Value="Monumente"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Trasee.aspx" Text="Trasee" Value="Trasee"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Evenimente.aspx" Text="Evenimente" Value="Evenimente"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Contact.aspx" Text="Contact" Value="Contact"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </address>
+     <div runat="server" class="container1">    
+    <div runat="server" class="container">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        </div>
+
+        </div>
+
+    </form>
+</body>
+</html>

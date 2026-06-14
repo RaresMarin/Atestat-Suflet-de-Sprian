@@ -1,0 +1,194 @@
+﻿
+body {
+    background-image: url('imagine/a.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p {
+    color: white;
+    font-size: 25px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-family: Caladea;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+#c{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px;
+    align-items:center;
+    justify-content:center;
+}
+.a {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    text-align:center;
+    font-family:'HP Simplified Hans';
+}
+#Galerie {
+    border-radius:50%;
+    box-shadow:5px black;
+    width: 80%;
+    object-fit: cover;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+#gs {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+#fanfara{
+    background-image:url("imagine/f.jpg");
+}
+#miner {
+    background-image: url("imagine/f1.jpg");
+}
+#colinde {
+    background-image: url("imagine/f2.jpg");
+}
+#Div1 {
+    background-image: url("imagine/f3.jpg");
+}
+
+#Div2 {
+    background-image: url("imagine/p0.jpg");
+}
+
+#Div3 {
+    background-image: url("imagine/f5.jpg");
+}
+#fanfara , #miner , #colinde, #Div1,#Div2,#Div3{
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+}
+#b1, #b2, #b3, #b5, #b6, #Salveaza {
+    border-style: none;
+    backdrop-filter: blur(20px);
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+    font-size: 15px;
+    font-family: 'HP Simplified Hans';
+}
+#b4 {
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+    font-size: 15px;
+    font-family: 'HP Simplified Hans';
+}
+button {
+    cursor: pointer;
+    border-style: none;
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    width: 10%;
+    height: 12%;
+    font-size: 20px;
+    font-family: 'HP Simplified Hans';
+    border-radius: 50%;
+}
+.container2{
+    display:grid;
+    grid-template-columns:1fr 2fr 1fr;
+    justify-content:center;
+    align-items:center;
+}
+.calator {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+address {
+    color: aliceblue;
+    font-size: 18px;
+    z-index:2;
+    text-align:right;
+}
+a:hover {
+    color: wheat;
+}
+iframe {
+    filter: invert(90%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+.container1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Lemon;
+    color: aliceblue;
+}
+h2 {
+    font-size: 20px;
+    font-family: Lemon;
+    color: aliceblue;
+}
+.l {
+    text-align:center;
+    font-size: 15px;
+    font-family: Lemon;
+    color: aliceblue;
+}
+#Image1, #itras{
+    width:300px;
+    height:200px;
+}
+/* Pentru telefon */
+@media (max-width:756px) {
+    iframe {
+        width: auto;
+        height: 60vw;
+    }
+    #Galerie {
+        width: 100%;
+        border-radius: 20%;
+    }
+    p{
+        font-size:15px;
+    }
+    }
